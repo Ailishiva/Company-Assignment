@@ -70,8 +70,9 @@ img {
     display: flex;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    img {
+/* @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {*/
+@media only screen and (max-width: 600px) {
+    img { */
         height: 99vh;
         margin: 10px;
         width: 135vh;

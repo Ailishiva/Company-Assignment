@@ -70,14 +70,12 @@ img {
     display: flex;
 }
 
-/* @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {*/
-@media only screen and (max-width: 600px) {
-    img { */
-        height: 99vh;
-        margin: 10px;
-        width: 135vh;
-
-    }
+ @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    img {
+    height: 67vh;
+    margin: 10px;
+    width: 64vh;
+}
 
     .container {
         border: 1px solid rgb(207, 203, 203);

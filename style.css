@@ -70,11 +70,11 @@ img {
     display: flex;
 }
 
- @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    img {
+@media only screen and (max-width: 550px){
+img {
     height: 67vh;
     margin: 10px;
-    width: 58vh;
+    width: 64vh;
 }
 
     .container {

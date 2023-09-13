@@ -1,0 +1,102 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    border: 1px solid rgb(207, 203, 203);
+    width: 330px;
+    height: 230px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.text {
+    background-color: rgb(244, 220, 196);
+    color: burlywood;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 50px;
+    padding: 2px 5px 2px 5px;
+    margin-left: 10px;
+}
+
+.section1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: ui-monospace;
+    padding: 7px;
+}
+
+.heading-text {
+    padding-left: 7px;
+}
+
+.text2 {
+
+    font-weight: bold;
+    border-radius: 5px;
+    width: 50px;
+    padding: 2px 5px 2px 5px;
+    margin-left: 10px;
+}
+
+.text3 {
+    background-color: rgb(244, 220, 196);
+    color: burlywood;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 80px;
+    padding: 2px 5px 2px 5px;
+    margin-left: 10px;
+}
+
+.top-container {
+    display: flex;
+}
+
+img {
+    height: 77vh;
+    width: 100vh;
+}
+
+.second-container {
+    display: flex;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    img {
+        height: 99vh;
+        margin: 10px;
+        width: 135vh;
+
+    }
+
+    .container {
+        border: 1px solid rgb(207, 203, 203);
+        height: 230px;
+        border-radius: 20px;
+        margin: 10px;
+        width: initial;
+    }
+
+    .second-container {
+        display: initial;
+    }
+
+    .top-container {
+        display: initial;
+    }
+}
+
+/* .image-container {
+    background-image: url("Images\gautam-gambhir.jpg");
+    height: 150vh;
+    width: 100%;
+} */

@@ -62,7 +62,7 @@ body {
 }
 
 img {
-    height: 77vh;
+    height: 85vh;
     width: 100vh;
 }
 
@@ -80,7 +80,7 @@ img {
 
     .container {
         border: 1px solid rgb(207, 203, 203);
-        height: 230px;
+        height: 280px;
         border-radius: 20px;
         margin: 10px;
         width: initial;

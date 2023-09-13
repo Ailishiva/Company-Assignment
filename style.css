@@ -93,6 +93,23 @@ img {
         display: initial;
     }
 }
+@media only screen and (max-width: 768px) {
+    .top-container {
+        display: initial;
+    }
+
+    img {
+        height: 70vh;
+        margin: 10px;
+        width: 99%;
+    }
+
+    .second-container {
+
+        justify-content: space-evenly;
+    }
+
+}
 
 /* .image-container {
     background-image: url("Images\gautam-gambhir.jpg");
